@@ -1,0 +1,81 @@
+export const hiraganaData = [
+  { jp: 'あ', ro: 'a' }, { jp: 'い', ro: 'i' }, { jp: 'う', ro: 'u' }, { jp: 'え', ro: 'e' }, { jp: 'お', ro: 'o' },
+  { jp: 'か', ro: 'ka' }, { jp: 'き', ro: 'ki' }, { jp: 'く', ro: 'ku' }, { jp: 'け', ro: 'ke' }, { jp: 'こ', ro: 'ko' },
+  { jp: 'さ', ro: 'sa' }, { jp: 'し', ro: 'shi' }, { jp: 'す', ro: 'su' }, { jp: 'せ', ro: 'se' }, { jp: 'そ', ro: 'so' },
+  { jp: 'た', ro: 'ta' }, { jp: 'ち', ro: 'chi' }, { jp: 'つ', ro: 'tsu' }, { jp: 'て', ro: 'te' }, { jp: 'と', ro: 'to' },
+  { jp: 'な', ro: 'na' }, { jp: 'に', ro: 'ni' }, { jp: 'ぬ', ro: 'nu' }, { jp: 'ね', ro: 'ne' }, { jp: 'の', ro: 'no' },
+  { jp: 'は', ro: 'ha' }, { jp: 'ひ', ro: 'hi' }, { jp: 'ふ', ro: 'fu' }, { jp: 'へ', ro: 'he' }, { jp: 'ほ', ro: 'ho' },
+  { jp: 'ま', ro: 'ma' }, { jp: 'み', ro: 'mi' }, { jp: 'む', ro: 'mu' }, { jp: 'め', ro: 'me' }, { jp: 'も', ro: 'mo' },
+  { jp: 'や', ro: 'ya' }, { jp: 'ゆ', ro: 'yu' }, { jp: 'よ', ro: 'yo' },
+  { jp: 'ら', ro: 'ra' }, { jp: 'り', ro: 'ri' }, { jp: 'る', ro: 'ru' }, { jp: 'れ', ro: 're' }, { jp: 'ろ', ro: 'ro' },
+  { jp: 'わ', ro: 'wa' }, { jp: 'を', ro: 'wo' }, { jp: 'ん', ro: 'n' },
+  { jp: 'が', ro: 'ga' }, { jp: 'ぎ', ro: 'gi' }, { jp: 'ぐ', ro: 'gu' }, { jp: 'げ', ro: 'ge' }, { jp: 'ご', ro: 'go' },
+  { jp: 'ざ', ro: 'za' }, { jp: 'じ', ro: 'ji' }, { jp: 'ず', ro: 'zu' }, { jp: 'ぜ', ro: 'ze' }, { jp: 'ぞ', ro: 'zo' },
+  { jp: 'だ', ro: 'da' }, { jp: 'ぢ', ro: 'ji' }, { jp: 'づ', ro: 'zu' }, { jp: 'で', ro: 'de' }, { jp: 'ど', ro: 'do' },
+  { jp: 'ば', ro: 'ba' }, { jp: 'び', ro: 'bi' }, { jp: 'ぶ', ro: 'bu' }, { jp: 'べ', ro: 'be' }, { jp: 'ぼ', ro: 'bo' },
+  { jp: 'ぱ', ro: 'pa' }, { jp: 'ぴ', ro: 'pi' }, { jp: 'ぷ', ro: 'pu' }, { jp: 'ぺ', ro: 'pe' }, { jp: 'ぽ', ro: 'po' }
+];
+
+export const katakanaData = [
+  { jp: 'ア', ro: 'a' }, { jp: 'イ', ro: 'i' }, { jp: 'ウ', ro: 'u' }, { jp: 'エ', ro: 'e' }, { jp: 'オ', ro: 'o' },
+  { jp: 'カ', ro: 'ka' }, { jp: 'キ', ro: 'ki' }, { jp: 'ク', ro: 'ku' }, { jp: 'ケ', ro: 'ke' }, { jp: 'コ', ro: 'ko' },
+  { jp: 'サ', ro: 'sa' }, { jp: 'シ', ro: 'shi' }, { jp: 'ス', ro: 'su' }, { jp: 'セ', ro: 'se' }, { jp: 'ソ', ro: 'so' },
+  { jp: 'タ', ro: 'ta' }, { jp: 'チ', ro: 'chi' }, { jp: 'ツ', ro: 'tsu' }, { jp: 'テ', ro: 'te' }, { jp: 'ト', ro: 'to' },
+  { jp: 'ナ', ro: 'na' }, { jp: 'ニ', ro: 'ni' }, { jp: 'ヌ', ro: 'nu' }, { jp: 'ネ', ro: 'ne' }, { jp: 'ノ', ro: 'no' },
+  { jp: 'ハ', ro: 'ha' }, { jp: 'ヒ', ro: 'hi' }, { jp: 'フ', ro: 'fu' }, { jp: 'ヘ', ro: 'he' }, { jp: 'ホ', ro: 'ho' },
+  { jp: 'マ', ro: 'ma' }, { jp: 'ミ', ro: 'mi' }, { jp: 'ム', ro: 'mu' }, { jp: 'メ', ro: 'me' }, { jp: 'モ', ro: 'mo' },
+  { jp: 'ヤ', ro: 'ya' }, { jp: 'ユ', ro: 'yu' }, { jp: 'ヨ', ro: 'yo' },
+  { jp: 'ラ', ro: 'ra' }, { jp: 'リ', ro: 'ri' }, { jp: 'ル', ro: 'ru' }, { jp: 'レ', ro: 're' }, { jp: 'ロ', ro: 'ro' },
+  { jp: 'ワ', ro: 'wa' }, { jp: 'ヲ', ro: 'wo' }, { jp: 'ン', ro: 'n' },
+  { jp: 'ガ', ro: 'ga' }, { jp: 'ギ', ro: 'gi' }, { jp: 'グ', ro: 'gu' }, { jp: 'げ', ro: 'ge' }, { jp: 'ゴ', ro: 'go' },
+  { jp: 'ザ', ro: 'za' }, { jp: 'ジ', ro: 'ji' }, { jp: 'ズ', ro: 'zu' }, { jp: 'ぜ', ro: 'ze' }, { jp: 'ゾ', ro: 'zo' },
+  { jp: 'ダ', ro: 'da' }, { jp: 'ヂ', ro: 'ji' }, { jp: 'ヅ', ro: 'zu' }, { jp: 'デ', ro: 'de' }, { jp: 'ド', ro: 'do' },
+  { jp: 'バ', ro: 'ba' }, { jp: 'ビ', ro: 'bi' }, { jp: 'ブ', ro: 'bu' }, { jp: 'ベ', ro: 'be' }, { jp: 'ボ', ro: 'bo' },
+  { jp: 'パ', ro: 'pa' }, { jp: 'ピ', ro: 'pi' }, { jp: 'プ', ro: 'pu' }, { jp: 'ペ', ro: 'pe' }, { jp: 'ポ', ro: 'po' }
+];
+
+export const kanjiData = [
+  { jp: '日', ro: 'hi/nichi', mean: 'Matahari/Hari' },
+  { jp: '月', ro: 'tsuki/getsu', mean: 'Bulan' },
+  { jp: '火', ro: 'hi/ka', mean: 'Api' },
+  { jp: '水', ro: 'mizu/sui', mean: 'Air' },
+  { jp: '木', ro: 'ki/moku', mean: 'Pohon' },
+  { jp: '金', ro: 'kane/kin', mean: 'Emas/Uang' },
+  { jp: '土', ro: 'tsuchi/do', mean: 'Tanah' },
+  { jp: '山', ro: 'yama/san', mean: 'Gunung' },
+  { jp: '川', ro: 'kawa/sen', mean: 'Sungai' },
+  { jp: '田', ro: 'ta/den', mean: 'Sawah' },
+  { jp: '人', ro: 'hito/jin', mean: 'Orang' },
+  { jp: '口', ro: 'kuchi/kou', mean: 'Mulut' },
+  { jp: '車', ro: 'kuruma/sha', mean: 'Mobil' },
+  { jp: '門', ro: 'mon/kado', mean: 'Gerbang' },
+  { jp: '学', ro: 'manabu/gaku', mean: 'Belajar' },
+  { jp: '生', ro: 'ikiru/sei', mean: 'Hidup/Lahir' },
+  { jp: '先', ro: 'saki/sen', mean: 'Dulu/Sebelum' },
+  { jp: '名', ro: 'na/mei', mean: 'Nama' },
+  { jp: '本', ro: 'moto/hon', mean: 'Buku/Asal' },
+  { jp: '大', ro: 'ookii/dai', mean: 'Besar' },
+  { jp: '小', ro: 'chiisai/shou', mean: 'Kecil' },
+  { jp: '中', ro: 'naka/chuu', mean: 'Tengah' },
+  { jp: '下', ro: 'shita/ka', mean: 'Bawah' },
+  { jp: '上', ro: 'ue/jou', mean: 'Atas' },
+  { jp: '分', ro: 'wakaru/fun', mean: 'Menit/Mengerti' }
+];
+
+export const quizData = [
+  { q: 'Apa arti dari "Konnichiwa"?', a: ['Selamat Pagi', 'Selamat Siang', 'Selamat Malam', 'Terima Kasih'], correct: 1 },
+  { q: 'Bagaimana cara menulis "A" dalam Hiragana?', a: ['い', 'う', 'あ', 'え'], correct: 2 },
+  { q: 'Apa arti kanji "水"?', a: ['Api', 'Air', 'Tanah', 'Kayu'], correct: 1 },
+  { q: 'Apa arti kata "Sensei"?', a: ['Murid', 'Dokter', 'Guru', 'Pilot'], correct: 2 },
+  { q: 'Apa arti kata "Watashi"?', a: ['Kamu', 'Saya', 'Dia', 'Mereka'], correct: 1 },
+  { q: 'Karakter "ス" adalah bagian dari?', a: ['Hiragana', 'Katakana', 'Kanji', 'Romaji'], correct: 1 },
+  { q: 'Apa arti kanji "山"?', a: ['Laut', 'Sungai', 'Gunung', 'Hutan'], correct: 2 },
+  { q: 'Angka 1 dalam bahasa Jepang adalah?', a: ['Ni', 'San', 'Ichi', 'Yon'], correct: 2 },
+  { q: 'Apa arti dari "Ohayou Gozaimasu"?', a: ['Selamat Malam', 'Selamat Siang', 'Selamat Pagi', 'Sampai Jumpa'], correct: 2 },
+  { q: 'Kanji "人" berarti?', a: ['Besar', 'Orang', 'Pohon', 'Mulut'], correct: 1 },
+  { q: 'Warna "Akai" berarti?', a: ['Biru', 'Putih', 'Merah', 'Hitam'], correct: 2 },
+  { q: 'Bagaimana cara mengucapkan "Terima Kasih"?', a: ['Sumimasen', 'Arigatou', 'Gomen', 'Sayonara'], correct: 1 },
+  { q: 'Karakter "わ" dibaca?', a: ['Wa', 'Wo', 'N', 'Ra'], correct: 0 },
+  { q: 'Apa arti "Neko"?', a: ['Anjing', 'Kucing', 'Burung', 'Ikan'], correct: 1 },
+  { q: 'Apa arti "Mizu"?', a: ['Nasi', 'Air', 'Roti', 'Susu'], correct: 1 }
+];
